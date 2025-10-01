@@ -51,4 +51,8 @@ empregados.delete(uid);
 res.json({ ok: true });
 });
 
+<<<<<<< HEAD
 app.listen(PORT, () => console.log(API on :${PORT}));
+=======
+app.listen(PORT, () => console.log(API on :${PORT}));
+>>>>>>> ab33a6f (add rotas /api/empregados)
