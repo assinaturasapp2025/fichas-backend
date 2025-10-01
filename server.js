@@ -133,4 +133,4 @@ res.status(500).json({ error: "Erro ao excluir" });
 }
 });
 
-app.listen(PORT, () => console.log(`API on :${PORT})`);
+app.listen(PORT, () => console.log(`🚀 API rodando na porta ${PORT}`));
